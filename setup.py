@@ -14,7 +14,7 @@ setup(
     author='Niels Rocholl',
     author_email='nielsrocholl@gmail.com',
     description='A package for computing Chamfer Distance',
-    # url='https://github.com/yourusername/chamfer_dist',  # Your repo URL
+    url='https://github.com/nielsRocholl/chamfer-distance', 
     packages=find_packages(),
     ext_modules=[
         CUDAExtension('chamfer_dist.chamfer', [
